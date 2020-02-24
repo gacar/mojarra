@@ -400,7 +400,7 @@ public class FaceletPartialStateManagementStrategy extends StateManagementStrate
                                             MessageUtils.PARTIAL_STATE_ERROR_RESTORING_ID,
                                             cid,
                                             e.toString());
-                                    throw new FacesException(msg, e);
+                                   // throw new FacesException(msg, e);
                                 }
                             }
                         }
